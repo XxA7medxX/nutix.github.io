@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutix - Bridging Reality and Innovation</title>
-    
-    <!-- Link to Google Fonts for Fira Sans -->
+    <title>Nutix - Welcome</title>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
     <style>
         body {
             margin: 0;
@@ -15,141 +12,30 @@
             background-color: black;
             color: white;
             font-family: 'Fira Sans', sans-serif;
-            overflow-x: hidden; /* Enable scrolling between sections */
-        }
-        header {
-            padding: 20px;
-            text-align: left;
-            margin-left: 10%;
-        }
-        header img {
-            max-width: 150px;
-        }
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            text-align: left;
-            margin-left: 10%;
-        }
-        .content h1 {
-            font-size: 2.5rem;
-            margin: 20px 0;
-            font-weight: 600;
-        }
-        .content p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            font-weight: 300;
-        }
-        .video-container {
-            position: relative;
-            margin: 20px auto;
-            max-width: 600px;
-            text-align: center;
-        }
-        .video-container img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-        }
-        .video-container video {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%; /* Adjust the width of the video relative to the laptop frame */
-            height: auto; /* Maintain aspect ratio */
-            z-index: 1;
-        }
-        .layout {
             display: flex;
+            justify-content: center;
             align-items: center;
-            justify-content: space-between;
-            margin: 0 auto;
-            max-width: 1200px;
-            padding: 50px 10%;
+            height: 100vh;
+            flex-direction: column;
         }
-        .section {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            padding: 50px 10%;
-            text-align: center;
-        }
-        .section img {
-            max-width: 150px;
-            height: auto;
-        }
-        .section .video-container {
-            position: relative;
-            max-width: 300px;
-            max-height: 300px;
-        }
-        .section .video-container video {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .text {
-            margin-top: 10px;
-            font-size: 1rem;
-            font-weight: 300;
-        }
-        .arrow {
-            font-size: 2rem;
+        a {
             color: white;
-            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: white;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <!-- First Section -->
-    <header>
-        <img src="resources/images/logo.png" alt="Nutix Logo">
-    </header>
-    <div class="layout">
-        <div class="content">
-            <h1>BRIDGING REALITY AND INNOVATION</h1>
-            <p>WE CRAFT DIGITAL TWINS TO REIMAGINE WORKFLOWS AND INSIGHTS</p>
-        </div>
-        <div class="video-container">
-            <img src="resources/images/laptop.png" alt="Laptop Frame">
-            <video autoplay loop muted playsinline>
-                <source src="resources/videos/demo.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>
-
-    <!-- Second Section -->
-    <div class="section">
-        <!-- Images/Videos Icon -->
-        <div>
-            <img src="resources/images/image_icon.png" alt="Images/Videos Icon">
-            <p class="text">IMAGES / VIDEOS</p>
-        </div>
-
-        <!-- Arrow -->
-        <div class="arrow">➔</div>
-
-        <!-- Video in the Middle -->
-        <div class="video-container">
-            <video autoplay loop muted playsinline>
-                <source src="resources/videos/middle_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <!-- Arrow -->
-        <div class="arrow">➔</div>
-
-        <!-- 3D Model Icon -->
-        <div>
-            <img src="resources/images/model_icon.png" alt="3D Model Icon">
-            <p class="text">3D MODEL</p>
-        </div>
-    </div>
+    <h1>Welcome to Nutix</h1>
+    <a href="first.html">Go to First Page</a>
+    <a href="second.html">Go to Second Page</a>
 </body>
 </html>
